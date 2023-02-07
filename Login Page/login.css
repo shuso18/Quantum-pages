@@ -1,0 +1,249 @@
+@font-face {
+  font-family: QSM;
+  src: url("Quicksand-Medium.ttf");
+}
+@font-face {
+  font-family: QSB;
+  src: url("Quicksand-Bold.ttf");
+}
+body {
+  margin: 0;
+  background-color: #EEEEEE;
+}
+body .container {
+  font-family: QSM;
+}
+body .container .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height: 56px;
+  background-color: black;
+  opacity: 0.85;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 3px solid #3FD28B;
+}
+body .container .header .hed-logo {
+  height: 36px;
+  margin-left: 25px;
+}
+body .container .course-tab {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 18px;
+  margin-top: 80px;
+}
+body .container .course-tab .form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 106px;
+  height: 600px;
+  width: 100%;
+}
+body .container .course-tab .form-section .login-form {
+  height: 594px;
+  width: 488px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  border-top: 4px solid #3AC7EC;
+}
+body .container .course-tab .form-section .login-form .textet {
+  padding-left: 32px;
+}
+body .container .course-tab .form-section .login-form .textet .form-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  padding-left: 5px;
+  margin-top: 20px;
+}
+body .container .course-tab .form-section .login-form .textet .form-heading .frm-head {
+  margin-right: 30%;
+  font-size: 24px;
+  font-family: QSM;
+}
+body .container .course-tab .form-section .login-form .textet .radio-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 34px;
+  font-size: 16px;
+  font-family: QSM;
+  accent-color: green;
+}
+body .container .course-tab .form-section .login-form .textet .drpdn {
+  margin-top: 23px;
+}
+body .container .course-tab .form-section .login-form .textet .drpdn .dn-2 {
+  margin-top: 36px;
+}
+body .container .course-tab .form-section .login-form .textet .drpdn select {
+  background: transparent;
+  background-image: url("icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100.8%;
+  background-position-y: -0.8px;
+}
+body .container .course-tab .form-section .login-form .textet .login-creds {
+  margin-top: 56px;
+}
+body .container .course-tab .form-section .login-form .textet .login-creds .lc-capt {
+  margin-top: 1px;
+  font-family: QSM;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: none;
+  color: #1F7A54;
+  font-size: 14px;
+}
+body .container .course-tab .form-section .login-form .textet .login-creds .password {
+  margin-top: 33px;
+}
+body .container .course-tab .form-section .login-form .textet .checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: center;
+  margin-top: 26px;
+}
+body .container .course-tab .form-section .login-form .textet .checkbox .cbx {
+  width: 18px;
+  height: 24px;
+  accent-color: green;
+}
+body .container .course-tab .form-section .login-form .textet .checkbox .rmbr {
+  font-size: 16px;
+  font-family: QSM;
+}
+body .container .course-tab .form-section .login-form .textet .btbt {
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+body .container .course-tab .form-section .login-form .textet .btbt button {
+  width: 215px;
+  height: 40px;
+  border: none;
+  background-color: #3FD28B;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2392156863);
+  font-size: 14px;
+  font-family: QSM;
+}
+body .footer {
+  margin-top: 32px;
+}
+body .footer .about-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: none;
+  height: 34px;
+  width: 132px;
+  font-family: QSM;
+  font-size: 14px;
+  margin: auto;
+}
+body .footer .about-sec .about-link {
+  width: 40px;
+}
+body .footer .about-sec a {
+  text-decoration: none;
+  color: #1F7A54;
+}
+body .footer .about-sec .dandi {
+  width: 1px;
+  height: 18px;
+  background-color: rgba(0, 0, 0, 0.1215686275);
+}
+body .footer .about-sec .contact-link {
+  width: 72px;
+}
+body .footer .copyright-sec {
+  background-color: #E0E1E1;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .footer .copyright-sec .foot-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  font-size: 12px;
+  font-family: QSM;
+  border-left: 1px solid #686868;
+  margin-left: 16px;
+  padding-left: 8px;
+}
+body .footer .copyright-sec .foot-text .ft-in {
+  margin-left: 8px;
+}
+body .footer .copyright-sec .foot-text .ft-in-1 {
+  font-family: QSB;
+}
+
+.sm1 {
+  padding-right: 8px;
+  font-size: 16px;
+  height: 25px;
+  color: #1F7A54;
+  padding-left: 8px;
+}
+
+.sm2 {
+  border-right: 1px solid rgba(0, 0, 0, 0.1215686275);
+}
+
+input.rdo {
+  width: 20px;
+  height: 24px;
+}
+
+.bbh {
+  font-size: 14px;
+  font-weight: medium;
+  color: #333333;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.dtt3, .dtt {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1607843137);
+  font-size: 16px;
+  color: #222222;
+  font-family: QSM;
+}
+
+.dtt2 {
+  padding-left: 4px;
+  border-color: rgba(0, 0, 0, 0.1607843137);
+}
+
+.dtt1 {
+  font-size: 12px;
+  padding-left: 5px;
+  font-family: QSM;
+}/*# sourceMappingURL=log2.css.map */
